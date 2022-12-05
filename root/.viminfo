@@ -11,11 +11,15 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/bin
+~MSle0~/\V\<Please\>
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1670009395,,"wq"
+|2,0,1670275393,,"wq"
+:s
+|2,0,1670275335,,"s"
+:.,.+2s
+|2,0,1670275328,,".,.+2s"
 :qw
 |2,0,1670009384,,"qw"
 :q
@@ -47,41 +51,89 @@
 "0	LINE	0
 	C-k
 |3,0,0,1,1,0,1669760468,"C-k"
-""-	CHAR	0
+""1	CHAR	0
+	
+	
+|3,1,1,0,2,0,1670011305,"",""
+"-@	CHAR	0
 	1
-|3,1,36,0,1,0,1670009118,"1"
+|3,2,36,0,1,0,1670009118,"1"
 
 # File marks:
-'0  2  5  /alx-system_engineering-devops/0x01-shell_permissions/1-who_am_i
-|4,48,2,5,1670009395,"/alx-system_engineering-devops/0x01-shell_permissions/1-who_am_i"
-'1  7  0  ~/.ssh/known_hosts
-|4,49,7,0,1670005770,"~/.ssh/known_hosts"
-'2  3  0  /alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
-|4,50,3,0,1669921910,"/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
-'3  3  0  ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
-|4,51,3,0,1669833178,"~/alx-system_engineering-devops/0x00-shell_basics/1-listit"
-'4  3  0  ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
-|4,52,3,0,1669833178,"~/alx-system_engineering-devops/0x00-shell_basics/1-listit"
-'5  1  0  ~/0x02_vi/cutting
-|4,53,1,0,1669760696,"~/0x02_vi/cutting"
-'6  1  0  ~/0x02_vi/cutting
-|4,54,1,0,1669760696,"~/0x02_vi/cutting"
+'0  2  18  ~/alx-system_engineering-devops/0-hello_world
+|4,48,2,18,1670275393,"~/alx-system_engineering-devops/0-hello_world"
+'1  1  91  /alx-system_engineering-devops/.git/MERGE_MSG
+|4,49,1,91,1670011312,"/alx-system_engineering-devops/.git/MERGE_MSG"
+'2  2  5  /alx-system_engineering-devops/0x01-shell_permissions/1-who_am_i
+|4,50,2,5,1670009395,"/alx-system_engineering-devops/0x01-shell_permissions/1-who_am_i"
+'3  7  0  ~/.ssh/known_hosts
+|4,51,7,0,1670005770,"~/.ssh/known_hosts"
+'4  3  0  /alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
+|4,52,3,0,1669921910,"/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
+'5  3  0  ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
+|4,53,3,0,1669833178,"~/alx-system_engineering-devops/0x00-shell_basics/1-listit"
+'6  3  0  ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
+|4,54,3,0,1669833178,"~/alx-system_engineering-devops/0x00-shell_basics/1-listit"
 '7  1  0  ~/0x02_vi/cutting
-|4,55,1,0,1669760548,"~/0x02_vi/cutting"
+|4,55,1,0,1669760696,"~/0x02_vi/cutting"
 '8  1  0  ~/0x02_vi/cutting
-|4,56,1,0,1669760548,"~/0x02_vi/cutting"
-'9  1  0  ~/.giti
-|4,57,1,0,1669418138,"~/.giti"
+|4,56,1,0,1669760696,"~/0x02_vi/cutting"
+'9  1  0  ~/0x02_vi/cutting
+|4,57,1,0,1669760548,"~/0x02_vi/cutting"
 
 # Jumplist (newest first):
+-'  2  18  ~/alx-system_engineering-devops/0-hello_world
+|4,39,2,18,1670275393,"~/alx-system_engineering-devops/0-hello_world"
+-'  1  0  ~/alx-system_engineering-devops/0-hello_world
+|4,39,1,0,1670275345,"~/alx-system_engineering-devops/0-hello_world"
+-'  1  91  /alx-system_engineering-devops/.git/MERGE_MSG
+|4,39,1,91,1670011312,"/alx-system_engineering-devops/.git/MERGE_MSG"
+-'  1  91  /alx-system_engineering-devops/.git/MERGE_MSG
+|4,39,1,91,1670011312,"/alx-system_engineering-devops/.git/MERGE_MSG"
 -'  2  5  /alx-system_engineering-devops/0x01-shell_permissions/1-who_am_i
 |4,39,2,5,1670009395,"/alx-system_engineering-devops/0x01-shell_permissions/1-who_am_i"
+-'  2  5  /alx-system_engineering-devops/0x01-shell_permissions/1-who_am_i
+|4,39,2,5,1670009395,"/alx-system_engineering-devops/0x01-shell_permissions/1-who_am_i"
+-'  2  5  /alx-system_engineering-devops/0x01-shell_permissions/1-who_am_i
+|4,39,2,5,1670009395,"/alx-system_engineering-devops/0x01-shell_permissions/1-who_am_i"
+-'  2  5  /alx-system_engineering-devops/0x01-shell_permissions/1-who_am_i
+|4,39,2,5,1670009395,"/alx-system_engineering-devops/0x01-shell_permissions/1-who_am_i"
+-'  1  0  /alx-system_engineering-devops/0x01-shell_permissions/1-who_am_i
+|4,39,1,0,1670009041,"/alx-system_engineering-devops/0x01-shell_permissions/1-who_am_i"
+-'  1  0  /alx-system_engineering-devops/0x01-shell_permissions/1-who_am_i
+|4,39,1,0,1670009041,"/alx-system_engineering-devops/0x01-shell_permissions/1-who_am_i"
+-'  1  0  /alx-system_engineering-devops/0x01-shell_permissions/1-who_am_i
+|4,39,1,0,1670009041,"/alx-system_engineering-devops/0x01-shell_permissions/1-who_am_i"
 -'  1  0  /alx-system_engineering-devops/0x01-shell_permissions/1-who_am_i
 |4,39,1,0,1670009041,"/alx-system_engineering-devops/0x01-shell_permissions/1-who_am_i"
 -'  7  0  ~/.ssh/known_hosts
 |4,39,7,0,1670005770,"~/.ssh/known_hosts"
 -'  7  0  ~/.ssh/known_hosts
 |4,39,7,0,1670005770,"~/.ssh/known_hosts"
+-'  7  0  ~/.ssh/known_hosts
+|4,39,7,0,1670005770,"~/.ssh/known_hosts"
+-'  7  0  ~/.ssh/known_hosts
+|4,39,7,0,1670005770,"~/.ssh/known_hosts"
+-'  7  0  ~/.ssh/known_hosts
+|4,39,7,0,1670005770,"~/.ssh/known_hosts"
+-'  7  0  ~/.ssh/known_hosts
+|4,39,7,0,1670005770,"~/.ssh/known_hosts"
+-'  7  0  ~/.ssh/known_hosts
+|4,39,7,0,1670005770,"~/.ssh/known_hosts"
+-'  7  0  ~/.ssh/known_hosts
+|4,39,7,0,1670005770,"~/.ssh/known_hosts"
+-'  1  0  ~/.ssh/known_hosts
+|4,39,1,0,1670005647,"~/.ssh/known_hosts"
+-'  1  0  ~/.ssh/known_hosts
+|4,39,1,0,1670005647,"~/.ssh/known_hosts"
+-'  1  0  ~/.ssh/known_hosts
+|4,39,1,0,1670005647,"~/.ssh/known_hosts"
+-'  1  0  ~/.ssh/known_hosts
+|4,39,1,0,1670005647,"~/.ssh/known_hosts"
+-'  1  0  ~/.ssh/known_hosts
+|4,39,1,0,1670005647,"~/.ssh/known_hosts"
+-'  1  0  ~/.ssh/known_hosts
+|4,39,1,0,1670005647,"~/.ssh/known_hosts"
 -'  1  0  ~/.ssh/known_hosts
 |4,39,1,0,1670005647,"~/.ssh/known_hosts"
 -'  1  0  ~/.ssh/known_hosts
@@ -94,6 +146,54 @@
 |4,39,3,0,1669921910,"/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
 -'  3  0  /alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
 |4,39,3,0,1669921910,"/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
+-'  3  0  /alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
+|4,39,3,0,1669921910,"/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
+-'  3  0  /alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
+|4,39,3,0,1669921910,"/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
+-'  3  0  /alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
+|4,39,3,0,1669921910,"/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
+-'  3  0  /alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
+|4,39,3,0,1669921910,"/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
+-'  3  0  /alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
+|4,39,3,0,1669921910,"/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
+-'  3  0  /alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
+|4,39,3,0,1669921910,"/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
+-'  3  0  /alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
+|4,39,3,0,1669921910,"/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
+-'  3  0  /alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
+|4,39,3,0,1669921910,"/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
+-'  3  0  /alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
+|4,39,3,0,1669921910,"/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
+-'  3  0  /alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
+|4,39,3,0,1669921910,"/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
+-'  3  0  /alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
+|4,39,3,0,1669921910,"/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
+-'  3  0  /alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
+|4,39,3,0,1669921910,"/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
+-'  1  0  /alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
+|4,39,1,0,1669921683,"/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
+-'  1  0  /alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
+|4,39,1,0,1669921683,"/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
+-'  1  0  /alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
+|4,39,1,0,1669921683,"/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
+-'  1  0  /alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
+|4,39,1,0,1669921683,"/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
+-'  1  0  /alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
+|4,39,1,0,1669921683,"/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
+-'  1  0  /alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
+|4,39,1,0,1669921683,"/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
+-'  1  0  /alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
+|4,39,1,0,1669921683,"/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
+-'  1  0  /alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
+|4,39,1,0,1669921683,"/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
+-'  1  0  /alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
+|4,39,1,0,1669921683,"/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
+-'  1  0  /alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
+|4,39,1,0,1669921683,"/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
+-'  1  0  /alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
+|4,39,1,0,1669921683,"/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
+-'  1  0  /alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
+|4,39,1,0,1669921683,"/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
 -'  1  0  /alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
 |4,39,1,0,1669921683,"/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
 -'  1  0  /alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
@@ -118,6 +218,54 @@
 |4,39,3,0,1669833178,"~/alx-system_engineering-devops/0x00-shell_basics/1-listit"
 -'  3  0  ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
 |4,39,3,0,1669833178,"~/alx-system_engineering-devops/0x00-shell_basics/1-listit"
+-'  3  0  ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
+|4,39,3,0,1669833178,"~/alx-system_engineering-devops/0x00-shell_basics/1-listit"
+-'  3  0  ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
+|4,39,3,0,1669833178,"~/alx-system_engineering-devops/0x00-shell_basics/1-listit"
+-'  3  0  ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
+|4,39,3,0,1669833178,"~/alx-system_engineering-devops/0x00-shell_basics/1-listit"
+-'  3  0  ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
+|4,39,3,0,1669833178,"~/alx-system_engineering-devops/0x00-shell_basics/1-listit"
+-'  3  0  ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
+|4,39,3,0,1669833178,"~/alx-system_engineering-devops/0x00-shell_basics/1-listit"
+-'  3  0  ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
+|4,39,3,0,1669833178,"~/alx-system_engineering-devops/0x00-shell_basics/1-listit"
+-'  3  0  ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
+|4,39,3,0,1669833178,"~/alx-system_engineering-devops/0x00-shell_basics/1-listit"
+-'  3  0  ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
+|4,39,3,0,1669833178,"~/alx-system_engineering-devops/0x00-shell_basics/1-listit"
+-'  3  0  ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
+|4,39,3,0,1669833178,"~/alx-system_engineering-devops/0x00-shell_basics/1-listit"
+-'  3  0  ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
+|4,39,3,0,1669833178,"~/alx-system_engineering-devops/0x00-shell_basics/1-listit"
+-'  3  0  ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
+|4,39,3,0,1669833178,"~/alx-system_engineering-devops/0x00-shell_basics/1-listit"
+-'  3  0  ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
+|4,39,3,0,1669833178,"~/alx-system_engineering-devops/0x00-shell_basics/1-listit"
+-'  3  0  ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
+|4,39,3,0,1669833178,"~/alx-system_engineering-devops/0x00-shell_basics/1-listit"
+-'  3  0  ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
+|4,39,3,0,1669833178,"~/alx-system_engineering-devops/0x00-shell_basics/1-listit"
+-'  3  0  ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
+|4,39,3,0,1669833178,"~/alx-system_engineering-devops/0x00-shell_basics/1-listit"
+-'  3  0  ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
+|4,39,3,0,1669833178,"~/alx-system_engineering-devops/0x00-shell_basics/1-listit"
+-'  3  0  ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
+|4,39,3,0,1669833178,"~/alx-system_engineering-devops/0x00-shell_basics/1-listit"
+-'  3  0  ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
+|4,39,3,0,1669833178,"~/alx-system_engineering-devops/0x00-shell_basics/1-listit"
+-'  3  0  ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
+|4,39,3,0,1669833178,"~/alx-system_engineering-devops/0x00-shell_basics/1-listit"
+-'  3  0  ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
+|4,39,3,0,1669833178,"~/alx-system_engineering-devops/0x00-shell_basics/1-listit"
+-'  3  0  ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
+|4,39,3,0,1669833178,"~/alx-system_engineering-devops/0x00-shell_basics/1-listit"
+-'  3  0  ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
+|4,39,3,0,1669833178,"~/alx-system_engineering-devops/0x00-shell_basics/1-listit"
+-'  3  0  ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
+|4,39,3,0,1669833178,"~/alx-system_engineering-devops/0x00-shell_basics/1-listit"
+-'  3  0  ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
+|4,39,3,0,1669833178,"~/alx-system_engineering-devops/0x00-shell_basics/1-listit"
 -'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
 |4,39,1,0,1669832198,"~/alx-system_engineering-devops/0x00-shell_basics/1-listit"
 -'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
@@ -134,148 +282,21 @@
 |4,39,1,0,1669832198,"~/alx-system_engineering-devops/0x00-shell_basics/1-listit"
 -'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
 |4,39,1,0,1669832198,"~/alx-system_engineering-devops/0x00-shell_basics/1-listit"
--'  1  0  ~/0x02_vi/cutting
-|4,39,1,0,1669760696,"~/0x02_vi/cutting"
--'  1  0  ~/0x02_vi/cutting
-|4,39,1,0,1669760696,"~/0x02_vi/cutting"
--'  1  0  ~/0x02_vi/cutting
-|4,39,1,0,1669760696,"~/0x02_vi/cutting"
--'  1  0  ~/0x02_vi/cutting
-|4,39,1,0,1669760696,"~/0x02_vi/cutting"
--'  1  0  ~/0x02_vi/cutting
-|4,39,1,0,1669760696,"~/0x02_vi/cutting"
--'  1  0  ~/0x02_vi/cutting
-|4,39,1,0,1669760696,"~/0x02_vi/cutting"
--'  1  0  ~/0x02_vi/cutting
-|4,39,1,0,1669760696,"~/0x02_vi/cutting"
--'  1  0  ~/0x02_vi/cutting
-|4,39,1,0,1669760696,"~/0x02_vi/cutting"
--'  1  0  ~/0x02_vi/cutting
-|4,39,1,0,1669760696,"~/0x02_vi/cutting"
--'  1  0  ~/0x02_vi/cutting
-|4,39,1,0,1669760696,"~/0x02_vi/cutting"
--'  1  0  ~/0x02_vi/cutting
-|4,39,1,0,1669760696,"~/0x02_vi/cutting"
--'  1  0  ~/0x02_vi/cutting
-|4,39,1,0,1669760696,"~/0x02_vi/cutting"
--'  1  0  ~/0x02_vi/cutting
-|4,39,1,0,1669760548,"~/0x02_vi/cutting"
--'  1  0  ~/0x02_vi/cutting
-|4,39,1,0,1669760548,"~/0x02_vi/cutting"
--'  1  0  ~/0x02_vi/cutting
-|4,39,1,0,1669760548,"~/0x02_vi/cutting"
--'  1  0  ~/0x02_vi/cutting
-|4,39,1,0,1669760548,"~/0x02_vi/cutting"
--'  1  0  ~/0x02_vi/cutting
-|4,39,1,0,1669760548,"~/0x02_vi/cutting"
--'  1  0  ~/0x02_vi/cutting
-|4,39,1,0,1669760548,"~/0x02_vi/cutting"
--'  1  0  ~/0x02_vi/cutting
-|4,39,1,0,1669760548,"~/0x02_vi/cutting"
--'  1  0  ~/0x02_vi/cutting
-|4,39,1,0,1669760548,"~/0x02_vi/cutting"
--'  1  0  ~/.giti
-|4,39,1,0,1669418138,"~/.giti"
--'  1  0  ~/.giti
-|4,39,1,0,1669418138,"~/.giti"
--'  1  0  ~/.giti
-|4,39,1,0,1669418138,"~/.giti"
--'  1  0  ~/.giti
-|4,39,1,0,1669418138,"~/.giti"
--'  1  0  ~/.giti
-|4,39,1,0,1669418138,"~/.giti"
--'  1  0  ~/.giti
-|4,39,1,0,1669418138,"~/.giti"
--'  1  0  ~/.giti
-|4,39,1,0,1669418138,"~/.giti"
--'  1  0  ~/.giti
-|4,39,1,0,1669418138,"~/.giti"
--'  1  0  ~/.giti
-|4,39,1,0,1669418138,"~/.giti"
--'  1  0  ~/.giti
-|4,39,1,0,1669418138,"~/.giti"
--'  1  0  ~/.giti
-|4,39,1,0,1669418138,"~/.giti"
--'  1  0  ~/.giti
-|4,39,1,0,1669418138,"~/.giti"
--'  1  0  ~/.giti
-|4,39,1,0,1669418138,"~/.giti"
--'  1  0  ~/.giti
-|4,39,1,0,1669418138,"~/.giti"
--'  1  0  ~/.giti
-|4,39,1,0,1669418138,"~/.giti"
--'  1  0  ~/.giti
-|4,39,1,0,1669418138,"~/.giti"
--'  1  0  ~/.giti
-|4,39,1,0,1669418138,"~/.giti"
--'  1  0  ~/.giti
-|4,39,1,0,1669418138,"~/.giti"
--'  1  0  ~/.giti
-|4,39,1,0,1669418138,"~/.giti"
--'  1  0  ~/.giti
-|4,39,1,0,1669418138,"~/.giti"
--'  1  0  ~/.giti
-|4,39,1,0,1669418138,"~/.giti"
--'  1  0  ~/.giti
-|4,39,1,0,1669418138,"~/.giti"
--'  1  0  ~/.giti
-|4,39,1,0,1669418138,"~/.giti"
--'  1  0  ~/.giti
-|4,39,1,0,1669418138,"~/.giti"
--'  1  0  ~/.giti
-|4,39,1,0,1669418138,"~/.giti"
--'  1  0  ~/.giti
-|4,39,1,0,1669418138,"~/.giti"
--'  1  0  ~/.giti
-|4,39,1,0,1669418138,"~/.giti"
--'  1  0  ~/.giti
-|4,39,1,0,1669418138,"~/.giti"
--'  1  0  ~/.giti
-|4,39,1,0,1669418138,"~/.giti"
--'  1  0  ~/.giti
-|4,39,1,0,1669418138,"~/.giti"
--'  1  0  ~/.giti
-|4,39,1,0,1669418138,"~/.giti"
--'  1  0  ~/.giti
-|4,39,1,0,1669418138,"~/.giti"
--'  1  0  ~/.giti
-|4,39,1,0,1669418138,"~/.giti"
--'  1  0  ~/.giti
-|4,39,1,0,1669418138,"~/.giti"
--'  1  0  ~/.giti
-|4,39,1,0,1669418138,"~/.giti"
--'  1  0  ~/.giti
-|4,39,1,0,1669418138,"~/.giti"
--'  5  0  ~/alx-pre_course/bash/alx
-|4,39,5,0,1669417526,"~/alx-pre_course/bash/alx"
--'  5  0  ~/alx-pre_course/bash/alx
-|4,39,5,0,1669417526,"~/alx-pre_course/bash/alx"
--'  5  0  ~/alx-pre_course/bash/alx
-|4,39,5,0,1669417526,"~/alx-pre_course/bash/alx"
--'  5  0  ~/alx-pre_course/bash/alx
-|4,39,5,0,1669417526,"~/alx-pre_course/bash/alx"
--'  5  0  ~/alx-pre_course/bash/alx
-|4,39,5,0,1669417526,"~/alx-pre_course/bash/alx"
--'  5  0  ~/alx-pre_course/bash/alx
-|4,39,5,0,1669417526,"~/alx-pre_course/bash/alx"
--'  5  0  ~/alx-pre_course/bash/alx
-|4,39,5,0,1669417526,"~/alx-pre_course/bash/alx"
--'  5  0  ~/alx-pre_course/bash/alx
-|4,39,5,0,1669417526,"~/alx-pre_course/bash/alx"
--'  5  0  ~/alx-pre_course/bash/alx
-|4,39,5,0,1669417526,"~/alx-pre_course/bash/alx"
--'  5  0  ~/alx-pre_course/bash/alx
-|4,39,5,0,1669417526,"~/alx-pre_course/bash/alx"
--'  5  0  ~/alx-pre_course/bash/alx
-|4,39,5,0,1669417526,"~/alx-pre_course/bash/alx"
--'  5  0  ~/alx-pre_course/bash/alx
-|4,39,5,0,1669417526,"~/alx-pre_course/bash/alx"
--'  5  0  ~/alx-pre_course/bash/alx
-|4,39,5,0,1669417526,"~/alx-pre_course/bash/alx"
--'  5  0  ~/alx-pre_course/bash/alx
-|4,39,5,0,1669417526,"~/alx-pre_course/bash/alx"
 
 # History of marks within files (newest to oldest):
+
+> ~/alx-system_engineering-devops/0-hello_world
+	*	1670275380	0
+	"	2	18
+	^	2	19
+	.	2	18
+	+	2	18
+
+> /alx-system_engineering-devops/.git/MERGE_MSG
+	*	1670011306	0
+	"	1	91
+	.	2	0
+	+	2	0
 
 > /alx-system_engineering-devops/0x01-shell_permissions/1-who_am_i
 	*	1670009384	0
