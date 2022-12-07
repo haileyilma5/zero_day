@@ -1,3 +1,5 @@
 [user]
 	name = haileyilma5
 	email = hailetube11@gmail.com
+[push]
+	default = current
