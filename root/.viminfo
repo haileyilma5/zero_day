@@ -15,7 +15,7 @@
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1670275393,,"wq"
+|2,0,1670492312,,"wq"
 :s
 |2,0,1670275335,,"s"
 :.,.+2s
@@ -51,239 +51,315 @@
 "0	LINE	0
 	C-k
 |3,0,0,1,1,0,1669760468,"C-k"
-""1	CHAR	0
+""1	LINE	0
+	
+|3,1,1,1,1,0,1670488280,""
+"2	CHAR	0
 	
 	
-|3,1,1,0,2,0,1670011305,"",""
+	
+|3,0,2,0,3,0,1670483504,"","",""
+"3	CHAR	0
+	
+	
+|3,0,3,0,2,0,1670011305,"",""
 "-@	CHAR	0
 	1
 |3,2,36,0,1,0,1670009118,"1"
 
 # File marks:
-'0  2  18  ~/alx-system_engineering-devops/0-hello_world
-|4,48,2,18,1670275393,"~/alx-system_engineering-devops/0-hello_world"
-'1  1  91  /alx-system_engineering-devops/.git/MERGE_MSG
-|4,49,1,91,1670011312,"/alx-system_engineering-devops/.git/MERGE_MSG"
-'2  2  5  /alx-system_engineering-devops/0x01-shell_permissions/1-who_am_i
-|4,50,2,5,1670009395,"/alx-system_engineering-devops/0x01-shell_permissions/1-who_am_i"
-'3  7  0  ~/.ssh/known_hosts
-|4,51,7,0,1670005770,"~/.ssh/known_hosts"
-'4  3  0  /alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
-|4,52,3,0,1669921910,"/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
-'5  3  0  ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
-|4,53,3,0,1669833178,"~/alx-system_engineering-devops/0x00-shell_basics/1-listit"
-'6  3  0  ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
-|4,54,3,0,1669833178,"~/alx-system_engineering-devops/0x00-shell_basics/1-listit"
-'7  1  0  ~/0x02_vi/cutting
-|4,55,1,0,1669760696,"~/0x02_vi/cutting"
-'8  1  0  ~/0x02_vi/cutting
-|4,56,1,0,1669760696,"~/0x02_vi/cutting"
-'9  1  0  ~/0x02_vi/cutting
-|4,57,1,0,1669760548,"~/0x02_vi/cutting"
+'0  10  48  /alx-low_level_programming/0x00-hello_world/6-size.c
+|4,48,10,48,1670492312,"/alx-low_level_programming/0x00-hello_world/6-size.c"
+'1  14  0  /alx-low_level_programming/0x00-hello_world/6-size.c
+|4,49,14,0,1670491548,"/alx-low_level_programming/0x00-hello_world/6-size.c"
+'2  14  0  /alx-low_level_programming/0x00-hello_world/6-size.c
+|4,50,14,0,1670491548,"/alx-low_level_programming/0x00-hello_world/6-size.c"
+'3  10  0  /alx-low_level_programming/0x00-hello_world/5-printf.c
+|4,51,10,0,1670489474,"/alx-low_level_programming/0x00-hello_world/5-printf.c"
+'4  12  0  /alx-low_level_programming/0x00-hello_world/4-puts.c
+|4,52,12,0,1670488722,"/alx-low_level_programming/0x00-hello_world/4-puts.c"
+'5  11  15  /alx-low_level_programming/0x00-hello_world/4-puts.c
+|4,53,11,15,1670488336,"/alx-low_level_programming/0x00-hello_world/4-puts.c"
+'6  12  0  /alx-low_level_programming/0x00-hello_world/4-puts.c
+|4,54,12,0,1670488336,"/alx-low_level_programming/0x00-hello_world/4-puts.c"
+'7  11  12  /alx-low_level_programming/0x00-hello_world/4-puts.c
+|4,55,11,12,1670488291,"/alx-low_level_programming/0x00-hello_world/4-puts.c"
+'8  11  12  /alx-low_level_programming/0x00-hello_world/4-puts.c
+|4,56,11,12,1670488291,"/alx-low_level_programming/0x00-hello_world/4-puts.c"
+'9  11  12  /alx-low_level_programming/0x00-hello_world/4-puts.c
+|4,57,11,12,1670488291,"/alx-low_level_programming/0x00-hello_world/4-puts.c"
 
 # Jumplist (newest first):
--'  2  18  ~/alx-system_engineering-devops/0-hello_world
-|4,39,2,18,1670275393,"~/alx-system_engineering-devops/0-hello_world"
--'  1  0  ~/alx-system_engineering-devops/0-hello_world
-|4,39,1,0,1670275345,"~/alx-system_engineering-devops/0-hello_world"
--'  1  91  /alx-system_engineering-devops/.git/MERGE_MSG
-|4,39,1,91,1670011312,"/alx-system_engineering-devops/.git/MERGE_MSG"
--'  1  91  /alx-system_engineering-devops/.git/MERGE_MSG
-|4,39,1,91,1670011312,"/alx-system_engineering-devops/.git/MERGE_MSG"
--'  2  5  /alx-system_engineering-devops/0x01-shell_permissions/1-who_am_i
-|4,39,2,5,1670009395,"/alx-system_engineering-devops/0x01-shell_permissions/1-who_am_i"
--'  2  5  /alx-system_engineering-devops/0x01-shell_permissions/1-who_am_i
-|4,39,2,5,1670009395,"/alx-system_engineering-devops/0x01-shell_permissions/1-who_am_i"
--'  2  5  /alx-system_engineering-devops/0x01-shell_permissions/1-who_am_i
-|4,39,2,5,1670009395,"/alx-system_engineering-devops/0x01-shell_permissions/1-who_am_i"
--'  2  5  /alx-system_engineering-devops/0x01-shell_permissions/1-who_am_i
-|4,39,2,5,1670009395,"/alx-system_engineering-devops/0x01-shell_permissions/1-who_am_i"
--'  1  0  /alx-system_engineering-devops/0x01-shell_permissions/1-who_am_i
-|4,39,1,0,1670009041,"/alx-system_engineering-devops/0x01-shell_permissions/1-who_am_i"
--'  1  0  /alx-system_engineering-devops/0x01-shell_permissions/1-who_am_i
-|4,39,1,0,1670009041,"/alx-system_engineering-devops/0x01-shell_permissions/1-who_am_i"
--'  1  0  /alx-system_engineering-devops/0x01-shell_permissions/1-who_am_i
-|4,39,1,0,1670009041,"/alx-system_engineering-devops/0x01-shell_permissions/1-who_am_i"
--'  1  0  /alx-system_engineering-devops/0x01-shell_permissions/1-who_am_i
-|4,39,1,0,1670009041,"/alx-system_engineering-devops/0x01-shell_permissions/1-who_am_i"
--'  7  0  ~/.ssh/known_hosts
-|4,39,7,0,1670005770,"~/.ssh/known_hosts"
--'  7  0  ~/.ssh/known_hosts
-|4,39,7,0,1670005770,"~/.ssh/known_hosts"
--'  7  0  ~/.ssh/known_hosts
-|4,39,7,0,1670005770,"~/.ssh/known_hosts"
--'  7  0  ~/.ssh/known_hosts
-|4,39,7,0,1670005770,"~/.ssh/known_hosts"
--'  7  0  ~/.ssh/known_hosts
-|4,39,7,0,1670005770,"~/.ssh/known_hosts"
--'  7  0  ~/.ssh/known_hosts
-|4,39,7,0,1670005770,"~/.ssh/known_hosts"
--'  7  0  ~/.ssh/known_hosts
-|4,39,7,0,1670005770,"~/.ssh/known_hosts"
--'  7  0  ~/.ssh/known_hosts
-|4,39,7,0,1670005770,"~/.ssh/known_hosts"
--'  1  0  ~/.ssh/known_hosts
-|4,39,1,0,1670005647,"~/.ssh/known_hosts"
--'  1  0  ~/.ssh/known_hosts
-|4,39,1,0,1670005647,"~/.ssh/known_hosts"
--'  1  0  ~/.ssh/known_hosts
-|4,39,1,0,1670005647,"~/.ssh/known_hosts"
--'  1  0  ~/.ssh/known_hosts
-|4,39,1,0,1670005647,"~/.ssh/known_hosts"
--'  1  0  ~/.ssh/known_hosts
-|4,39,1,0,1670005647,"~/.ssh/known_hosts"
--'  1  0  ~/.ssh/known_hosts
-|4,39,1,0,1670005647,"~/.ssh/known_hosts"
--'  1  0  ~/.ssh/known_hosts
-|4,39,1,0,1670005647,"~/.ssh/known_hosts"
--'  1  0  ~/.ssh/known_hosts
-|4,39,1,0,1670005647,"~/.ssh/known_hosts"
--'  3  0  /alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
-|4,39,3,0,1669921910,"/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
--'  3  0  /alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
-|4,39,3,0,1669921910,"/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
--'  3  0  /alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
-|4,39,3,0,1669921910,"/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
--'  3  0  /alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
-|4,39,3,0,1669921910,"/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
--'  3  0  /alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
-|4,39,3,0,1669921910,"/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
--'  3  0  /alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
-|4,39,3,0,1669921910,"/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
--'  3  0  /alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
-|4,39,3,0,1669921910,"/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
--'  3  0  /alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
-|4,39,3,0,1669921910,"/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
--'  3  0  /alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
-|4,39,3,0,1669921910,"/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
--'  3  0  /alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
-|4,39,3,0,1669921910,"/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
--'  3  0  /alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
-|4,39,3,0,1669921910,"/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
--'  3  0  /alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
-|4,39,3,0,1669921910,"/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
--'  3  0  /alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
-|4,39,3,0,1669921910,"/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
--'  3  0  /alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
-|4,39,3,0,1669921910,"/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
--'  3  0  /alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
-|4,39,3,0,1669921910,"/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
--'  3  0  /alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
-|4,39,3,0,1669921910,"/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
--'  1  0  /alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
-|4,39,1,0,1669921683,"/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
--'  1  0  /alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
-|4,39,1,0,1669921683,"/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
--'  1  0  /alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
-|4,39,1,0,1669921683,"/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
--'  1  0  /alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
-|4,39,1,0,1669921683,"/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
--'  1  0  /alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
-|4,39,1,0,1669921683,"/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
--'  1  0  /alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
-|4,39,1,0,1669921683,"/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
--'  1  0  /alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
-|4,39,1,0,1669921683,"/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
--'  1  0  /alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
-|4,39,1,0,1669921683,"/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
--'  1  0  /alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
-|4,39,1,0,1669921683,"/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
--'  1  0  /alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
-|4,39,1,0,1669921683,"/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
--'  1  0  /alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
-|4,39,1,0,1669921683,"/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
--'  1  0  /alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
-|4,39,1,0,1669921683,"/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
--'  1  0  /alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
-|4,39,1,0,1669921683,"/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
--'  1  0  /alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
-|4,39,1,0,1669921683,"/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
--'  1  0  /alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
-|4,39,1,0,1669921683,"/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
--'  1  0  /alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
-|4,39,1,0,1669921683,"/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
--'  3  0  ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
-|4,39,3,0,1669833178,"~/alx-system_engineering-devops/0x00-shell_basics/1-listit"
--'  3  0  ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
-|4,39,3,0,1669833178,"~/alx-system_engineering-devops/0x00-shell_basics/1-listit"
--'  3  0  ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
-|4,39,3,0,1669833178,"~/alx-system_engineering-devops/0x00-shell_basics/1-listit"
--'  3  0  ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
-|4,39,3,0,1669833178,"~/alx-system_engineering-devops/0x00-shell_basics/1-listit"
--'  3  0  ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
-|4,39,3,0,1669833178,"~/alx-system_engineering-devops/0x00-shell_basics/1-listit"
--'  3  0  ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
-|4,39,3,0,1669833178,"~/alx-system_engineering-devops/0x00-shell_basics/1-listit"
--'  3  0  ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
-|4,39,3,0,1669833178,"~/alx-system_engineering-devops/0x00-shell_basics/1-listit"
--'  3  0  ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
-|4,39,3,0,1669833178,"~/alx-system_engineering-devops/0x00-shell_basics/1-listit"
--'  3  0  ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
-|4,39,3,0,1669833178,"~/alx-system_engineering-devops/0x00-shell_basics/1-listit"
--'  3  0  ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
-|4,39,3,0,1669833178,"~/alx-system_engineering-devops/0x00-shell_basics/1-listit"
--'  3  0  ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
-|4,39,3,0,1669833178,"~/alx-system_engineering-devops/0x00-shell_basics/1-listit"
--'  3  0  ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
-|4,39,3,0,1669833178,"~/alx-system_engineering-devops/0x00-shell_basics/1-listit"
--'  3  0  ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
-|4,39,3,0,1669833178,"~/alx-system_engineering-devops/0x00-shell_basics/1-listit"
--'  3  0  ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
-|4,39,3,0,1669833178,"~/alx-system_engineering-devops/0x00-shell_basics/1-listit"
--'  3  0  ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
-|4,39,3,0,1669833178,"~/alx-system_engineering-devops/0x00-shell_basics/1-listit"
--'  3  0  ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
-|4,39,3,0,1669833178,"~/alx-system_engineering-devops/0x00-shell_basics/1-listit"
--'  3  0  ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
-|4,39,3,0,1669833178,"~/alx-system_engineering-devops/0x00-shell_basics/1-listit"
--'  3  0  ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
-|4,39,3,0,1669833178,"~/alx-system_engineering-devops/0x00-shell_basics/1-listit"
--'  3  0  ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
-|4,39,3,0,1669833178,"~/alx-system_engineering-devops/0x00-shell_basics/1-listit"
--'  3  0  ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
-|4,39,3,0,1669833178,"~/alx-system_engineering-devops/0x00-shell_basics/1-listit"
--'  3  0  ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
-|4,39,3,0,1669833178,"~/alx-system_engineering-devops/0x00-shell_basics/1-listit"
--'  3  0  ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
-|4,39,3,0,1669833178,"~/alx-system_engineering-devops/0x00-shell_basics/1-listit"
--'  3  0  ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
-|4,39,3,0,1669833178,"~/alx-system_engineering-devops/0x00-shell_basics/1-listit"
--'  3  0  ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
-|4,39,3,0,1669833178,"~/alx-system_engineering-devops/0x00-shell_basics/1-listit"
--'  3  0  ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
-|4,39,3,0,1669833178,"~/alx-system_engineering-devops/0x00-shell_basics/1-listit"
--'  3  0  ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
-|4,39,3,0,1669833178,"~/alx-system_engineering-devops/0x00-shell_basics/1-listit"
--'  3  0  ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
-|4,39,3,0,1669833178,"~/alx-system_engineering-devops/0x00-shell_basics/1-listit"
--'  3  0  ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
-|4,39,3,0,1669833178,"~/alx-system_engineering-devops/0x00-shell_basics/1-listit"
--'  3  0  ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
-|4,39,3,0,1669833178,"~/alx-system_engineering-devops/0x00-shell_basics/1-listit"
--'  3  0  ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
-|4,39,3,0,1669833178,"~/alx-system_engineering-devops/0x00-shell_basics/1-listit"
--'  3  0  ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
-|4,39,3,0,1669833178,"~/alx-system_engineering-devops/0x00-shell_basics/1-listit"
--'  3  0  ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
-|4,39,3,0,1669833178,"~/alx-system_engineering-devops/0x00-shell_basics/1-listit"
--'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
-|4,39,1,0,1669832198,"~/alx-system_engineering-devops/0x00-shell_basics/1-listit"
--'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
-|4,39,1,0,1669832198,"~/alx-system_engineering-devops/0x00-shell_basics/1-listit"
--'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
-|4,39,1,0,1669832198,"~/alx-system_engineering-devops/0x00-shell_basics/1-listit"
--'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
-|4,39,1,0,1669832198,"~/alx-system_engineering-devops/0x00-shell_basics/1-listit"
--'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
-|4,39,1,0,1669832198,"~/alx-system_engineering-devops/0x00-shell_basics/1-listit"
--'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
-|4,39,1,0,1669832198,"~/alx-system_engineering-devops/0x00-shell_basics/1-listit"
--'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
-|4,39,1,0,1669832198,"~/alx-system_engineering-devops/0x00-shell_basics/1-listit"
--'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
-|4,39,1,0,1669832198,"~/alx-system_engineering-devops/0x00-shell_basics/1-listit"
+-'  10  48  /alx-low_level_programming/0x00-hello_world/6-size.c
+|4,39,10,48,1670492312,"/alx-low_level_programming/0x00-hello_world/6-size.c"
+-'  14  0  /alx-low_level_programming/0x00-hello_world/6-size.c
+|4,39,14,0,1670491753,"/alx-low_level_programming/0x00-hello_world/6-size.c"
+-'  14  0  /alx-low_level_programming/0x00-hello_world/6-size.c
+|4,39,14,0,1670491548,"/alx-low_level_programming/0x00-hello_world/6-size.c"
+-'  1  0  /alx-low_level_programming/0x00-hello_world/6-size.c
+|4,39,1,0,1670489793,"/alx-low_level_programming/0x00-hello_world/6-size.c"
+-'  1  0  /alx-low_level_programming/0x00-hello_world/6-size.c
+|4,39,1,0,1670489793,"/alx-low_level_programming/0x00-hello_world/6-size.c"
+-'  10  0  /alx-low_level_programming/0x00-hello_world/5-printf.c
+|4,39,10,0,1670489474,"/alx-low_level_programming/0x00-hello_world/5-printf.c"
+-'  10  0  /alx-low_level_programming/0x00-hello_world/5-printf.c
+|4,39,10,0,1670489474,"/alx-low_level_programming/0x00-hello_world/5-printf.c"
+-'  10  0  /alx-low_level_programming/0x00-hello_world/5-printf.c
+|4,39,10,0,1670489474,"/alx-low_level_programming/0x00-hello_world/5-printf.c"
+-'  10  0  /alx-low_level_programming/0x00-hello_world/5-printf.c
+|4,39,10,0,1670489474,"/alx-low_level_programming/0x00-hello_world/5-printf.c"
+-'  1  0  /alx-low_level_programming/0x00-hello_world/5-printf.c
+|4,39,1,0,1670489035,"/alx-low_level_programming/0x00-hello_world/5-printf.c"
+-'  1  0  /alx-low_level_programming/0x00-hello_world/5-printf.c
+|4,39,1,0,1670489035,"/alx-low_level_programming/0x00-hello_world/5-printf.c"
+-'  1  0  /alx-low_level_programming/0x00-hello_world/5-printf.c
+|4,39,1,0,1670489035,"/alx-low_level_programming/0x00-hello_world/5-printf.c"
+-'  1  0  /alx-low_level_programming/0x00-hello_world/5-printf.c
+|4,39,1,0,1670489035,"/alx-low_level_programming/0x00-hello_world/5-printf.c"
+-'  12  0  /alx-low_level_programming/0x00-hello_world/4-puts.c
+|4,39,12,0,1670488722,"/alx-low_level_programming/0x00-hello_world/4-puts.c"
+-'  12  0  /alx-low_level_programming/0x00-hello_world/4-puts.c
+|4,39,12,0,1670488722,"/alx-low_level_programming/0x00-hello_world/4-puts.c"
+-'  12  0  /alx-low_level_programming/0x00-hello_world/4-puts.c
+|4,39,12,0,1670488722,"/alx-low_level_programming/0x00-hello_world/4-puts.c"
+-'  12  0  /alx-low_level_programming/0x00-hello_world/4-puts.c
+|4,39,12,0,1670488722,"/alx-low_level_programming/0x00-hello_world/4-puts.c"
+-'  12  0  /alx-low_level_programming/0x00-hello_world/4-puts.c
+|4,39,12,0,1670488722,"/alx-low_level_programming/0x00-hello_world/4-puts.c"
+-'  12  0  /alx-low_level_programming/0x00-hello_world/4-puts.c
+|4,39,12,0,1670488722,"/alx-low_level_programming/0x00-hello_world/4-puts.c"
+-'  12  0  /alx-low_level_programming/0x00-hello_world/4-puts.c
+|4,39,12,0,1670488722,"/alx-low_level_programming/0x00-hello_world/4-puts.c"
+-'  12  0  /alx-low_level_programming/0x00-hello_world/4-puts.c
+|4,39,12,0,1670488722,"/alx-low_level_programming/0x00-hello_world/4-puts.c"
+-'  11  15  /alx-low_level_programming/0x00-hello_world/4-puts.c
+|4,39,11,15,1670488385,"/alx-low_level_programming/0x00-hello_world/4-puts.c"
+-'  11  15  /alx-low_level_programming/0x00-hello_world/4-puts.c
+|4,39,11,15,1670488385,"/alx-low_level_programming/0x00-hello_world/4-puts.c"
+-'  11  15  /alx-low_level_programming/0x00-hello_world/4-puts.c
+|4,39,11,15,1670488385,"/alx-low_level_programming/0x00-hello_world/4-puts.c"
+-'  11  15  /alx-low_level_programming/0x00-hello_world/4-puts.c
+|4,39,11,15,1670488385,"/alx-low_level_programming/0x00-hello_world/4-puts.c"
+-'  11  15  /alx-low_level_programming/0x00-hello_world/4-puts.c
+|4,39,11,15,1670488385,"/alx-low_level_programming/0x00-hello_world/4-puts.c"
+-'  11  15  /alx-low_level_programming/0x00-hello_world/4-puts.c
+|4,39,11,15,1670488385,"/alx-low_level_programming/0x00-hello_world/4-puts.c"
+-'  11  15  /alx-low_level_programming/0x00-hello_world/4-puts.c
+|4,39,11,15,1670488385,"/alx-low_level_programming/0x00-hello_world/4-puts.c"
+-'  11  15  /alx-low_level_programming/0x00-hello_world/4-puts.c
+|4,39,11,15,1670488385,"/alx-low_level_programming/0x00-hello_world/4-puts.c"
+-'  12  0  /alx-low_level_programming/0x00-hello_world/4-puts.c
+|4,39,12,0,1670488336,"/alx-low_level_programming/0x00-hello_world/4-puts.c"
+-'  12  0  /alx-low_level_programming/0x00-hello_world/4-puts.c
+|4,39,12,0,1670488336,"/alx-low_level_programming/0x00-hello_world/4-puts.c"
+-'  12  0  /alx-low_level_programming/0x00-hello_world/4-puts.c
+|4,39,12,0,1670488336,"/alx-low_level_programming/0x00-hello_world/4-puts.c"
+-'  12  0  /alx-low_level_programming/0x00-hello_world/4-puts.c
+|4,39,12,0,1670488336,"/alx-low_level_programming/0x00-hello_world/4-puts.c"
+-'  12  0  /alx-low_level_programming/0x00-hello_world/4-puts.c
+|4,39,12,0,1670488336,"/alx-low_level_programming/0x00-hello_world/4-puts.c"
+-'  12  0  /alx-low_level_programming/0x00-hello_world/4-puts.c
+|4,39,12,0,1670488336,"/alx-low_level_programming/0x00-hello_world/4-puts.c"
+-'  12  0  /alx-low_level_programming/0x00-hello_world/4-puts.c
+|4,39,12,0,1670488336,"/alx-low_level_programming/0x00-hello_world/4-puts.c"
+-'  12  0  /alx-low_level_programming/0x00-hello_world/4-puts.c
+|4,39,12,0,1670488336,"/alx-low_level_programming/0x00-hello_world/4-puts.c"
+-'  11  12  /alx-low_level_programming/0x00-hello_world/4-puts.c
+|4,39,11,12,1670488316,"/alx-low_level_programming/0x00-hello_world/4-puts.c"
+-'  11  12  /alx-low_level_programming/0x00-hello_world/4-puts.c
+|4,39,11,12,1670488316,"/alx-low_level_programming/0x00-hello_world/4-puts.c"
+-'  11  12  /alx-low_level_programming/0x00-hello_world/4-puts.c
+|4,39,11,12,1670488316,"/alx-low_level_programming/0x00-hello_world/4-puts.c"
+-'  11  12  /alx-low_level_programming/0x00-hello_world/4-puts.c
+|4,39,11,12,1670488316,"/alx-low_level_programming/0x00-hello_world/4-puts.c"
+-'  11  12  /alx-low_level_programming/0x00-hello_world/4-puts.c
+|4,39,11,12,1670488316,"/alx-low_level_programming/0x00-hello_world/4-puts.c"
+-'  11  12  /alx-low_level_programming/0x00-hello_world/4-puts.c
+|4,39,11,12,1670488316,"/alx-low_level_programming/0x00-hello_world/4-puts.c"
+-'  11  12  /alx-low_level_programming/0x00-hello_world/4-puts.c
+|4,39,11,12,1670488316,"/alx-low_level_programming/0x00-hello_world/4-puts.c"
+-'  11  12  /alx-low_level_programming/0x00-hello_world/4-puts.c
+|4,39,11,12,1670488316,"/alx-low_level_programming/0x00-hello_world/4-puts.c"
+-'  11  12  /alx-low_level_programming/0x00-hello_world/4-puts.c
+|4,39,11,12,1670488291,"/alx-low_level_programming/0x00-hello_world/4-puts.c"
+-'  11  12  /alx-low_level_programming/0x00-hello_world/4-puts.c
+|4,39,11,12,1670488291,"/alx-low_level_programming/0x00-hello_world/4-puts.c"
+-'  11  12  /alx-low_level_programming/0x00-hello_world/4-puts.c
+|4,39,11,12,1670488291,"/alx-low_level_programming/0x00-hello_world/4-puts.c"
+-'  11  12  /alx-low_level_programming/0x00-hello_world/4-puts.c
+|4,39,11,12,1670488291,"/alx-low_level_programming/0x00-hello_world/4-puts.c"
+-'  11  12  /alx-low_level_programming/0x00-hello_world/4-puts.c
+|4,39,11,12,1670488291,"/alx-low_level_programming/0x00-hello_world/4-puts.c"
+-'  11  12  /alx-low_level_programming/0x00-hello_world/4-puts.c
+|4,39,11,12,1670488291,"/alx-low_level_programming/0x00-hello_world/4-puts.c"
+-'  11  12  /alx-low_level_programming/0x00-hello_world/4-puts.c
+|4,39,11,12,1670488291,"/alx-low_level_programming/0x00-hello_world/4-puts.c"
+-'  11  12  /alx-low_level_programming/0x00-hello_world/4-puts.c
+|4,39,11,12,1670488291,"/alx-low_level_programming/0x00-hello_world/4-puts.c"
+-'  11  12  /alx-low_level_programming/0x00-hello_world/4-puts.c
+|4,39,11,12,1670488153,"/alx-low_level_programming/0x00-hello_world/4-puts.c"
+-'  11  12  /alx-low_level_programming/0x00-hello_world/4-puts.c
+|4,39,11,12,1670488153,"/alx-low_level_programming/0x00-hello_world/4-puts.c"
+-'  11  12  /alx-low_level_programming/0x00-hello_world/4-puts.c
+|4,39,11,12,1670488153,"/alx-low_level_programming/0x00-hello_world/4-puts.c"
+-'  11  12  /alx-low_level_programming/0x00-hello_world/4-puts.c
+|4,39,11,12,1670488153,"/alx-low_level_programming/0x00-hello_world/4-puts.c"
+-'  11  12  /alx-low_level_programming/0x00-hello_world/4-puts.c
+|4,39,11,12,1670488153,"/alx-low_level_programming/0x00-hello_world/4-puts.c"
+-'  11  12  /alx-low_level_programming/0x00-hello_world/4-puts.c
+|4,39,11,12,1670488153,"/alx-low_level_programming/0x00-hello_world/4-puts.c"
+-'  11  12  /alx-low_level_programming/0x00-hello_world/4-puts.c
+|4,39,11,12,1670488153,"/alx-low_level_programming/0x00-hello_world/4-puts.c"
+-'  11  12  /alx-low_level_programming/0x00-hello_world/4-puts.c
+|4,39,11,12,1670488153,"/alx-low_level_programming/0x00-hello_world/4-puts.c"
+-'  12  0  /alx-low_level_programming/0x00-hello_world/4-puts.c
+|4,39,12,0,1670488106,"/alx-low_level_programming/0x00-hello_world/4-puts.c"
+-'  12  0  /alx-low_level_programming/0x00-hello_world/4-puts.c
+|4,39,12,0,1670488106,"/alx-low_level_programming/0x00-hello_world/4-puts.c"
+-'  12  0  /alx-low_level_programming/0x00-hello_world/4-puts.c
+|4,39,12,0,1670488106,"/alx-low_level_programming/0x00-hello_world/4-puts.c"
+-'  12  0  /alx-low_level_programming/0x00-hello_world/4-puts.c
+|4,39,12,0,1670488106,"/alx-low_level_programming/0x00-hello_world/4-puts.c"
+-'  12  0  /alx-low_level_programming/0x00-hello_world/4-puts.c
+|4,39,12,0,1670488106,"/alx-low_level_programming/0x00-hello_world/4-puts.c"
+-'  12  0  /alx-low_level_programming/0x00-hello_world/4-puts.c
+|4,39,12,0,1670488106,"/alx-low_level_programming/0x00-hello_world/4-puts.c"
+-'  12  0  /alx-low_level_programming/0x00-hello_world/4-puts.c
+|4,39,12,0,1670488106,"/alx-low_level_programming/0x00-hello_world/4-puts.c"
+-'  12  0  /alx-low_level_programming/0x00-hello_world/4-puts.c
+|4,39,12,0,1670488106,"/alx-low_level_programming/0x00-hello_world/4-puts.c"
+-'  12  0  /alx-low_level_programming/0x00-hello_world/4-puts.c
+|4,39,12,0,1670488106,"/alx-low_level_programming/0x00-hello_world/4-puts.c"
+-'  12  0  /alx-low_level_programming/0x00-hello_world/4-puts.c
+|4,39,12,0,1670488106,"/alx-low_level_programming/0x00-hello_world/4-puts.c"
+-'  12  0  /alx-low_level_programming/0x00-hello_world/4-puts.c
+|4,39,12,0,1670488106,"/alx-low_level_programming/0x00-hello_world/4-puts.c"
+-'  12  0  /alx-low_level_programming/0x00-hello_world/4-puts.c
+|4,39,12,0,1670488106,"/alx-low_level_programming/0x00-hello_world/4-puts.c"
+-'  12  0  /alx-low_level_programming/0x00-hello_world/4-puts.c
+|4,39,12,0,1670488106,"/alx-low_level_programming/0x00-hello_world/4-puts.c"
+-'  12  0  /alx-low_level_programming/0x00-hello_world/4-puts.c
+|4,39,12,0,1670488106,"/alx-low_level_programming/0x00-hello_world/4-puts.c"
+-'  12  0  /alx-low_level_programming/0x00-hello_world/4-puts.c
+|4,39,12,0,1670488106,"/alx-low_level_programming/0x00-hello_world/4-puts.c"
+-'  12  0  /alx-low_level_programming/0x00-hello_world/4-puts.c
+|4,39,12,0,1670488106,"/alx-low_level_programming/0x00-hello_world/4-puts.c"
+-'  12  0  /alx-low_level_programming/0x00-hello_world/4-puts.c
+|4,39,12,0,1670488042,"/alx-low_level_programming/0x00-hello_world/4-puts.c"
+-'  12  0  /alx-low_level_programming/0x00-hello_world/4-puts.c
+|4,39,12,0,1670488042,"/alx-low_level_programming/0x00-hello_world/4-puts.c"
+-'  12  0  /alx-low_level_programming/0x00-hello_world/4-puts.c
+|4,39,12,0,1670488042,"/alx-low_level_programming/0x00-hello_world/4-puts.c"
+-'  12  0  /alx-low_level_programming/0x00-hello_world/4-puts.c
+|4,39,12,0,1670488042,"/alx-low_level_programming/0x00-hello_world/4-puts.c"
+-'  12  0  /alx-low_level_programming/0x00-hello_world/4-puts.c
+|4,39,12,0,1670488042,"/alx-low_level_programming/0x00-hello_world/4-puts.c"
+-'  12  0  /alx-low_level_programming/0x00-hello_world/4-puts.c
+|4,39,12,0,1670488042,"/alx-low_level_programming/0x00-hello_world/4-puts.c"
+-'  12  0  /alx-low_level_programming/0x00-hello_world/4-puts.c
+|4,39,12,0,1670488042,"/alx-low_level_programming/0x00-hello_world/4-puts.c"
+-'  12  0  /alx-low_level_programming/0x00-hello_world/4-puts.c
+|4,39,12,0,1670488042,"/alx-low_level_programming/0x00-hello_world/4-puts.c"
+-'  12  0  /alx-low_level_programming/0x00-hello_world/4-puts.c
+|4,39,12,0,1670487768,"/alx-low_level_programming/0x00-hello_world/4-puts.c"
+-'  12  0  /alx-low_level_programming/0x00-hello_world/4-puts.c
+|4,39,12,0,1670487768,"/alx-low_level_programming/0x00-hello_world/4-puts.c"
+-'  12  0  /alx-low_level_programming/0x00-hello_world/4-puts.c
+|4,39,12,0,1670487768,"/alx-low_level_programming/0x00-hello_world/4-puts.c"
+-'  12  0  /alx-low_level_programming/0x00-hello_world/4-puts.c
+|4,39,12,0,1670487768,"/alx-low_level_programming/0x00-hello_world/4-puts.c"
+-'  12  0  /alx-low_level_programming/0x00-hello_world/4-puts.c
+|4,39,12,0,1670487768,"/alx-low_level_programming/0x00-hello_world/4-puts.c"
+-'  12  0  /alx-low_level_programming/0x00-hello_world/4-puts.c
+|4,39,12,0,1670487768,"/alx-low_level_programming/0x00-hello_world/4-puts.c"
+-'  12  0  /alx-low_level_programming/0x00-hello_world/4-puts.c
+|4,39,12,0,1670487768,"/alx-low_level_programming/0x00-hello_world/4-puts.c"
+-'  12  0  /alx-low_level_programming/0x00-hello_world/4-puts.c
+|4,39,12,0,1670487768,"/alx-low_level_programming/0x00-hello_world/4-puts.c"
+-'  12  0  /alx-low_level_programming/0x00-hello_world/4-puts.c
+|4,39,12,0,1670487430,"/alx-low_level_programming/0x00-hello_world/4-puts.c"
+-'  12  0  /alx-low_level_programming/0x00-hello_world/4-puts.c
+|4,39,12,0,1670487430,"/alx-low_level_programming/0x00-hello_world/4-puts.c"
+-'  12  0  /alx-low_level_programming/0x00-hello_world/4-puts.c
+|4,39,12,0,1670487430,"/alx-low_level_programming/0x00-hello_world/4-puts.c"
+-'  12  0  /alx-low_level_programming/0x00-hello_world/4-puts.c
+|4,39,12,0,1670487430,"/alx-low_level_programming/0x00-hello_world/4-puts.c"
+-'  12  0  /alx-low_level_programming/0x00-hello_world/4-puts.c
+|4,39,12,0,1670487430,"/alx-low_level_programming/0x00-hello_world/4-puts.c"
+-'  12  0  /alx-low_level_programming/0x00-hello_world/4-puts.c
+|4,39,12,0,1670487430,"/alx-low_level_programming/0x00-hello_world/4-puts.c"
+-'  12  0  /alx-low_level_programming/0x00-hello_world/4-puts.c
+|4,39,12,0,1670487430,"/alx-low_level_programming/0x00-hello_world/4-puts.c"
 
 # History of marks within files (newest to oldest):
+
+> /alx-low_level_programming/0x00-hello_world/6-size.c
+	*	1670492306	0
+	"	10	48
+	^	10	49
+	.	10	48
+	+	9	32
+	+	8	31
+	+	10	56
+	+	8	46
+	+	9	45
+	+	10	44
+	+	11	0
+	+	13	11
+	+	9	22
+	+	14	0
+	+	10	48
+
+> /alx-low_level_programming/0x00-hello_world/5-printf.c
+	*	1670489466	0
+	"	10	0
+	^	10	1
+	.	10	0
+	+	10	0
+
+> /alx-low_level_programming/0x00-hello_world/4-puts.c
+	*	1670488715	0
+	"	12	0
+	^	12	1
+	.	12	1
+	+	11	16
+	+	11	8
+	+	11	15
+	+	10	0
+	+	11	13
+	+	9	1
+	+	12	1
+	p	1	0
+
+> /alx-low_level_programming/0x00-hello_world/3-name
+	*	1670487012	0
+	"	2	18
+	^	2	20
+	.	2	19
+	+	2	19
+
+> /alx-low_level_programming/0x00-hello_world/2-assembler
+	*	1670486815	0
+	"	2	11
+	^	2	12
+	.	3	0
+	+	3	0
+
+> /alx-low_level_programming/0x00-hello_world/1-compiler
+	*	1670484610	0
+	"	2	28
+	^	2	29
+	.	2	28
+	+	2	28
+	p	1	0
+
+> /alx-low_level_programming/0x00-hello_world/0-preprocessor
+	*	1670483684	0
+	"	2	17
+	^	2	18
+	.	2	17
+	+	1	0
+	+	2	17
 
 > ~/alx-system_engineering-devops/0-hello_world
 	*	1670275380	0
